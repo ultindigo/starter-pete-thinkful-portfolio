@@ -14,6 +14,8 @@ h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 /* Header */
@@ -33,9 +35,10 @@ article {
 }
 
 article div {
-  text-align: center;
+  text-align: left;
   width: 100%;
 }
+
 
 /* Paragraphs */
 p {
@@ -45,10 +48,14 @@ p {
 /* Links */
 a:link {
   color: #d62828;
+  font-size: 20px;
+  padding-left: 20px;
 }
 
 a:hover {
   color: #f77f00;
+  font-size: 20px;
+  padding-left: 20px;
 }
 
 nav a {
@@ -58,13 +65,25 @@ nav a {
 /* Images */
 img {
   width: 100%;
-  max-width: 200px;
+  max-width: 250px;
   height: auto;
 }
 
 .image-circle {
   border: 2px solid #003049;
   border-radius: 50%;
+  float: left;
+
+}
+
+.left-align-container {
+  text-align: left;
+}
+
+.right-half-content {
+  width: 50%;
+  margin-left: 50%;
+  text-align: left;
 }
 
 /* Footer */
