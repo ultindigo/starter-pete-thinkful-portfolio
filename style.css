@@ -14,9 +14,9 @@ h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
+
 
 /* Header */
 header {
@@ -48,8 +48,9 @@ p {
 /* Links */
 a:link {
   color: #d62828;
-  font-size: 20px;
-  padding-left: 20px;
+  font-size: 16px;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 5px;
 }
 
 a:hover {
@@ -65,7 +66,7 @@ nav a {
 /* Images */
 img {
   width: 100%;
-  max-width: 250px;
+  max-width: 200px;
   height: auto;
 }
 
@@ -84,6 +85,19 @@ img {
   width: 50%;
   margin-left: 50%;
   text-align: left;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  flex: 1;
+  justify-content: space-beween;
+  margin: 10px;
+  padding: 10px;
+  
 }
 
 /* Footer */
